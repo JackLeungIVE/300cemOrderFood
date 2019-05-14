@@ -2,4 +2,9 @@
     <string name="app_name">OrderFood</string>
     <string name="sign_in">Sign In</string>
     <string name="sign_up">Sign Up</string>
+    <string name="Name">Name</string>
+    <string name="Phone_Number">Phone Number</string>
+    <string name="Jack">Jack</string>
+    <string name="password">password</string>
+    <string name="Password">Password</string>
 </resources>
