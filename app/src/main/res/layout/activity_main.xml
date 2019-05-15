@@ -24,7 +24,7 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_alignParentBottom="true"
-        android:weightSum="2"
+        android:weightSum="4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -56,6 +56,35 @@
             app:shadowHeight="5dp"
             app:cornerRadius="4dp"
             />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnGPS"
+            android:text="@string/GPS"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:buttonColor="@color/btnSignActive"
+            app:shadowColor="@android:color/black"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp"
+            app:cornerRadius="4dp"
+            />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnMAP"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:text="@string/MAP"
+            android:textColor="@android:color/white"
+            app:buttonColor="@color/btnSignUp"
+            app:cornerRadius="4dp"
+            app:shadowColor="@android:color/black"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp" />
 
     </LinearLayout>
 

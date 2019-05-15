@@ -4,6 +4,7 @@ android {
     compileSdkVersion 26
     buildToolsVersion "28.0.3"
     defaultConfig {
+        multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
         applicationId "com.example.user.myapplication"
         minSdkVersion 15
@@ -27,7 +28,7 @@ dependencies {
     })
 
     //Add Library
-    
+
 
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
@@ -40,6 +41,7 @@ dependencies {
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.firebaseui:firebase-ui-database:1.2.0'
     compile 'com.android.support:design:26.+'
+    //compile 'com.google.android.gms:play-services-maps:11.0.4'
     testCompile 'junit:junit:4.12'
 }
 apply plugin: 'com.google.gms.google-services'

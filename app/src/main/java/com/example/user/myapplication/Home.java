@@ -144,7 +144,7 @@ public class Home extends AppCompatActivity
 
         } else if (id == R.id.nav_orders) {
 
-        } else if (id == R.id.nav_log_out) {
+        }else if (id == R.id.nav_log_out) {
             //Logout
             Intent signIn = new Intent(Home.this,Signin.class);
             signIn.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

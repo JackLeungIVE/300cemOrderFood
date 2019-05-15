@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">食</string>
+    <string name="sign_in">登入</string>
+    <string name="sign_up">申請</string>
+    <string name="Name">名字</string>
+    <string name="Phone_Number">電話號碼</string>
+    <string name="Jack">Jack</string>
+    <string name="password">password</string>
+    <string name="Password">密碼</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="GPS">GPS</string>
+    <string name="changeLang">轉換語言</string>
+</resources>

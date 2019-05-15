@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
-    tools:context="com.example.user.myapplication.SignUp">
+    tools:context="com.example.user.myapplication.SignUp"
+    android:orientation="vertical"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -64,6 +66,21 @@
             app:met_singleLineEllipsis="true" />
 
     </LinearLayout>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btnchange_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/changeLang"
+        android:textColor="@android:color/white"
+        app:buttonColor="@color/btnSignUp"
+        app:cornerRadius="4dp"
+        app:shadowColor="@android:color/black"
+        app:shadowEnabled="true"
+        app:shadowHeight="5dp" />
 
     <info.hoang8f.widget.FButton
         android:id="@+id/btnSignUp"
